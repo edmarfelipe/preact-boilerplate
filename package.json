@@ -1,0 +1,22 @@
+{
+  "name": "preact-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "preact": "10.3.4",
+    "styled-components": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel": "2.0.0-alpha.3.2"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  }
+}
