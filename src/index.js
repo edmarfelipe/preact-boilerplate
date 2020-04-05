@@ -1,5 +1,5 @@
-import { render, h } from "preact";
-import styled from "styled-components";
+import { render, h } from 'preact';
+import styled from 'styled-components';
 
 const Hero = styled.div`
   font-family: "Parisienne", cursive;
